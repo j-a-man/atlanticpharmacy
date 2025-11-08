@@ -162,7 +162,7 @@ export default function HomePage() {
               className="rounded-full gap-2 text-base px-8 bg-white text-primary hover:bg-white/90"
               asChild
             >
-              <Link href="tel:+17185551234">
+              <Link href="tel:+7184842260">
                 <Phone className="h-5 w-5" />
                 (718) 484-2260
               </Link>
