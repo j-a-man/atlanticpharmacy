@@ -130,7 +130,7 @@ export default function HomePage() {
             <div className="grid grid-cols-2 gap-4">
               {[
                 { title: "Notary Public", desc: "Professional notary services" },
-                { title: "OmniCards", desc: "Recharge your cards here" },
+                { title: "OmniCards", desc: "Recharge your OmniCards and MetroCards here" },
                 { title: "Fax & Print", desc: "Starting at $1 per page" },
                 { title: "Lottery", desc: "Lottery and scratch-offs" },
               ].map((service, index) => (
@@ -164,7 +164,7 @@ export default function HomePage() {
             >
               <Link href="tel:+17185551234">
                 <Phone className="h-5 w-5" />
-                (718) 555-1234
+                (718) 484-2260
               </Link>
             </Button>
             <Button
