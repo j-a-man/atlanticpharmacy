@@ -51,7 +51,7 @@ export function Navigation() {
 
           <div className="hidden md:flex items-center gap-3">
             <Button size="sm" className="rounded-full gap-2" asChild>
-              <Link href="tel:+7184842260">
+              <Link href="tel:+17184842260">
                 <Phone className="h-4 w-4" />
                 Call Us
               </Link>
@@ -88,7 +88,7 @@ export function Navigation() {
               </Link>
             ))}
             <Button size="sm" className="w-full mt-4 gap-2" asChild>
-              <Link href="tel:+7184842260">
+              <Link href="tel:+17184842260">
                 <Phone className="h-4 w-4" />
                 Call (718) 484-2260
               </Link>

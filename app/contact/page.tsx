@@ -48,7 +48,7 @@ export default function ContactPage() {
               <h3 className="font-semibold text-foreground">Phone</h3>
               <p className="text-sm text-muted-foreground">(718) 484-2260</p>
               <Button variant="link" className="p-0 h-auto text-primary" asChild>
-                <a href="tel:+7184842260">Call Us →</a>
+                <a href="tel:+17184842260">Call Us →</a>
               </Button>
             </CardContent>
           </Card>
