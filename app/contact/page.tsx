@@ -24,13 +24,13 @@ export default function ContactPage() {
               </div>
               <h3 className="font-semibold text-foreground">Location</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                123 Atlantic Avenue
+                1706B Atlantic Ave
                 <br />
-                Brooklyn, NY 11201
+                Brooklyn, NY 11213
               </p>
               <Button variant="link" className="p-0 h-auto text-primary" asChild>
                 <a
-                  href="https://maps.google.com/?q=123+Atlantic+Avenue+Brooklyn+NY"
+                  href="https://maps.app.goo.gl/BCVCBWKgB9ugqqYx7"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -61,7 +61,7 @@ export default function ContactPage() {
               <h3 className="font-semibold text-foreground">Email</h3>
               <p className="text-sm text-muted-foreground">atlanticrx@gmail.com</p>
               <Button variant="link" className="p-0 h-auto text-primary" asChild>
-                <a href="mailto:info@atlanticpharmacy.com">Send Email →</a>
+                <a href="mailto:atlanticrx@gmail.com">Send Email →</a>
               </Button>
             </CardContent>
           </Card>
@@ -73,7 +73,9 @@ export default function ContactPage() {
               </div>
               <h3 className="font-semibold text-foreground">Hours</h3>
               <p className="text-sm text-muted-foreground">
-                Mon-Sat: 9AM - 7PM
+                Mon-Fri: 9:30AM - 6:30PM
+                <br />
+                Sat: 10:00AM - 4:30PM
                 <br />
                 Sunday: Closed
               </p>
@@ -88,28 +90,24 @@ export default function ContactPage() {
         <Card className="border-border overflow-hidden">
           <CardContent className="p-0">
             <div className="aspect-video bg-muted flex items-center justify-center">
-              <div className="text-center space-y-2 p-8">
-                <MapPin className="h-12 w-12 text-muted-foreground mx-auto" />
-                <p className="text-muted-foreground">Map integration placeholder</p>
-                <Button variant="outline" asChild>
-                  <a
-                    href="https://maps.google.com/?q=123+Atlantic+Avenue+Brooklyn+NY"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Open in Google Maps
-                  </a>
-                </Button>
-              </div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6051.707302602746!2d-73.93665442326636!3d40.677193439744684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25c78449142e1%3A0x2527109bbda974e9!2s1706B%20Atlantic%20Ave%2C%20Brooklyn%2C%20NY%20112131206!5e0!3m2!1sen!2sus!4v1762570096523!5m2!1sen!2sus"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen={true}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
           </CardContent>
         </Card>
 
         {/* Additional Info */}
         <div className="mt-16 text-center space-y-4">
-          <h2 className="text-2xl font-bold text-foreground">We speak your language</h2>
+          <h2 className="text-2xl font-bold text-foreground">Thanks for Supporting Us</h2>
           <p className="text-muted-foreground">
-            Our multilingual staff speaks English, Spanish, and Mandarin to better serve our diverse community.
+            It means a lot when you refer and review!
           </p>
         </div>
       </div>

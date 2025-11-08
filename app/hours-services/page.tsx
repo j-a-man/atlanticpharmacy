@@ -27,27 +27,23 @@ export default function HoursServicesPage() {
             <div className="space-y-6 pt-8">
               <div className="space-y-2">
                 <p className="text-sm tracking-[0.15em] text-muted-foreground">MONDAY – FRIDAY</p>
-                <p className="font-[family-name:var(--font-playfair)] text-3xl md:text-4xl font-light text-foreground">
-                  10:00 AM – 6:30 PM
-                </p>
+                <h2 className="text-3xl sm:text-4xl text-foreground mb-4">9:30 AM – 6:30 PM</h2>
+                  
               </div>
 
               <div className="h-px bg-border max-w-xs mx-auto" />
 
               <div className="space-y-2">
                 <p className="text-sm tracking-[0.15em] text-muted-foreground">SATURDAY</p>
-                <p className="font-[family-name:var(--font-playfair)] text-3xl md:text-4xl font-light text-foreground">
-                  10:00 AM – 4:00 PM
-                </p>
+                <h2 className="text-3xl sm:text-4xl text-foreground mb-4">10:00 AM – 4:30 PM</h2>
+                
               </div>
 
               <div className="h-px bg-border max-w-xs mx-auto" />
 
               <div className="space-y-2">
                 <p className="text-sm tracking-[0.15em] text-muted-foreground">SUNDAY</p>
-                <p className="font-[family-name:var(--font-playfair)] text-3xl md:text-4xl font-light text-foreground">
-                  CLOSED
-                </p>
+                <h2 className="text-3xl sm:text-4xl text-foreground mb-4">CLOSED</h2>
               </div>
             </div>
           </div>

@@ -10,7 +10,7 @@ export default function AboutPage() {
               About Us
             </h1>
           <p className="text-lg text-muted-foreground tracking-[0.05em] leading-relaxed max-w-2xl mx-auto">
-            Providing Medicine to Patients in Jackson Heights Since 2010
+            Providing Medicine to Patients in Brooklyn Since 2019
           </p>
         </div>
       </section>
@@ -20,19 +20,19 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto">
           <div className="space-y-12">
             <div className="text-center space-y-4">
-              <p className="text-xs tracking-[0.25em] text-muted-foreground">EST. SEPTEMBER 2010</p>
+              <p className="text-xs tracking-[0.25em] text-muted-foreground">EST. 2019</p>
               <div className="h-px bg-border max-w-xs mx-auto" />
             </div>
 
             <div className="space-y-8 text-center">
               <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">Our Mission</h2>
               <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-                Health Guard Pharmacy was founded in September 2010 with a singular vision: to provide pharmaceutical 
+                Atlantic Pharmacy was founded in September 2019 with a singular vision: to provide pharmaceutical 
                 care that combines clinical excellence with genuine community service. We believe that
                 modern healthcare demands both technical expertise and human connection.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-                Our commitment extends beyond dispensing medications. We serve as trusted healthcare partners in Queens 
+                Our commitment extends beyond dispensing medications. We serve as trusted healthcare partners in Brooklyn 
                 and deliver to all five boroughs of New York City, offering multilingual support and offer services that address
                 the diverse needs of our community.
               </p>
@@ -58,7 +58,7 @@ export default function AboutPage() {
               },
               {
                 title: "ACCESSIBILITY",
-                description: "Serving Queens with multilingual support and comprehensive delivery services.",
+                description: "Serving Brooklyn with multilingual support and comprehensive delivery services.",
               },
               {
                 title: "COMMUNITY",
@@ -88,23 +88,23 @@ export default function AboutPage() {
             <div className="text-center space-y-4">
               <Phone className="h-6 w-6 text-primary mx-auto" />
               <h4 className="text-xs tracking-[0.2em] text-muted-foreground">PHONE</h4>
-              <p className="text-lg text-foreground">(718) 507-6800</p>
+              <p className="text-lg text-foreground">(718) 484-2260</p>
             </div>
 
             
             <div className="text-center space-y-4">
               <Mail className="h-6 w-6 text-primary mx-auto" />
               <h4 className="text-xs tracking-[0.2em] text-muted-foreground">EMAIL</h4>
-              <p className="text-lg text-foreground">healthguardrx@gmail.com</p>
+              <p className="text-lg text-foreground">atlanticrx@gmail.com</p>
             </div>
 
             <div className="text-center space-y-4">
               <MapPin className="h-6 w-6 text-primary mx-auto" />
               <h4 className="text-xs tracking-[0.2em] text-muted-foreground">ADDRESS</h4>
               <p className="text-lg text-foreground">
-                33-13 Junction Blvd
+                1706B Atlantic Ave
                 <br />
-                Jackson Heights, NY 11372
+                Brooklyn, NY 11213
               </p>
             </div>
           </div>

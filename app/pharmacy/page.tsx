@@ -1,21 +1,15 @@
 "use client"
 
 import { useState } from "react"
-import { ChevronLeft, ChevronRight, MapPin } from "lucide-react"
+import { ChevronLeft, ChevronRight, MapPin, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
+
 
 const carouselImages = [
   {
-    url: "/image1.jpg",
+    url: "/atlantic.png",
     alt: "Modern pharmacy interior with clean white shelves",
-  },
-  {
-    url: "/image2.jpg",
-    alt: "Professional pharmacy service counter",
-  },
-  {
-    url: "/image3.jpg",
-    alt: "Private pharmacy consultation area",
   },
   {
     url: "/image4.jpeg",
@@ -101,6 +95,16 @@ export default function PharmacyPage() {
           <div className="text-center mb-16">
             <h2 className="text-xs tracking-[0.25em] text-muted-foreground mb-4">LOCATIONS</h2>
             <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">Visit Us</h2>
+            <Button size="lg" className="rounded-full gap-2 text-base px-8" asChild>
+                <Link
+                  href="https://healthguardpharmacy.vercel.app" // 1. Use the full URL
+                  target="_blank" // 2. Add target to open in new tab
+                  rel="noopener noreferrer" // 3. Add rel for security
+                >
+                  <ArrowRight className="h-5 w-5" />
+                  Our Other Location
+                </Link>
+              </Button>
           </div>
 
           {/* This grid now holds two columns, one for each location */}
@@ -138,7 +142,7 @@ export default function PharmacyPage() {
 
                 <div className="space-y-4">
                   <h4 className="text-xs tracking-[0.2em] text-muted-foreground">DELIVERY AREA</h4>
-                  <p className="text-lg text-foreground leading-relaxed">All 5 Boroughs of New York City</p>
+                  <p className="text-lg text-foreground leading-relaxed">All 5 Boroughs of NYC</p>
                 </div>
 
                 <div className="space-y-4">
@@ -175,21 +179,21 @@ export default function PharmacyPage() {
                 <div className="space-y-4">
                   <h4 className="text-xs tracking-[0.2em] text-muted-foreground">ADDRESS</h4>
                   <p className="text-lg text-foreground leading-relaxed">
-                    1750 Atlantic Ave
+                    1706B Atlantic Ave
                     <br />
-                    Brooklyn, NY 11233
+                    Brooklyn, NY 11213
                   </p>
                 </div>
 
                 <div className="space-y-4">
                   <h4 className="text-xs tracking-[0.2em] text-muted-foreground">DELIVERY AREA</h4>
-                  <p className="text-lg text-foreground leading-relaxed">Manhattan & Brooklyn</p>
+                  <p className="text-lg text-foreground leading-relaxed">All 5 Boroughs of NYC</p>
                 </div>
 
                 <div className="space-y-4">
                   <h4 className="text-xs tracking-[0.2em] text-muted-foreground">CONTACT</h4>
                   <p className="text-lg text-foreground leading-relaxed">
-                    (212) 555-1234
+                    (718) 484-2260
                   </p>
                 </div>
               </div>

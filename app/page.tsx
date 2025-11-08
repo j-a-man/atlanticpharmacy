@@ -40,6 +40,16 @@ export default function HomePage() {
               <Button size="lg" variant="outline" className="rounded-full text-base px-8 bg-transparent" asChild>
                 <Link href="/hours-services">Our Services</Link>
               </Button>
+              <Button size="lg" className="rounded-full gap-2 text-base px-8" asChild>
+                <Link
+                  href="https://healthguardpharmacy.vercel.app" // 1. Use the full URL
+                  target="_blank" // 2. Add target to open in new tab
+                  rel="noopener noreferrer" // 3. Add rel for security
+                >
+                  <ArrowRight className="h-5 w-5" />
+                  Our Other Location
+                </Link>
+              </Button>
             </div>
 
             {/* Trust indicators */}
